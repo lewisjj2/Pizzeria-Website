@@ -1,0 +1,168 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header {
+    font-family: tahoma;
+    background-image: url(https://wallpaperscraft.com/image/pizza_tomatoes_olives_mushrooms_cheese_dish_leaves_food_93326_1920x1080.jpg);
+    height:620px;
+    background-attachment: fixed;
+}
+.header {
+    position:absolute;
+    top: 50%;
+    left: 5%;
+}
+h1 {
+    color: white !important
+}
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.row h4 {
+    text-align: center;
+    margin-right: 28px
+}
+.main-nav {
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+}
+.main-nav li {
+    display: inline-block;
+    margin-left: 20px;
+    font-family: tahoma;
+}
+.main-nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 90%;
+    font-weight: bold;
+}
+.main-nav li a:hover {
+    color: red;
+    border-bottom: 2px solid red;
+    transition: all 0.5s ease-in;
+    padding: 10px 0;
+}
+.logo {
+    max-width: 300px;
+    margin-left: 80px;
+}
+.logo img {
+    float: left;
+    margin-top: 30px;
+}
+.copy {
+    width:70%;
+    margin-left: 15%;
+    margin-bottom: 20px;
+}
+h3:after {
+    width: 100px;
+    height: 2px;
+    display: block;
+    background-color: #7FFF00;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.features h3 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.arranging {
+    text-align: justify;
+}
+.features i {
+    font-size: 30px;
+    color: #32CD32;
+    margin-left: 45%
+}
+.features h4 {
+    margin-left: 35px;
+}
+.meal-showcase {
+    list-style-type: none;
+    width: 100%;
+}
+.meal-showcase li {
+    display: block;
+    width: 25%;
+    float:left;
+}
+.meal-photo {
+    overflow: hidden;
+}
+.meal-photo img {
+    transform: scale(1.15);
+    transition: all 0.5s;
+}
+.meal-photo img:hover {
+    transform: scale(1.05);
+}
+.meal {
+    margin-top: 80px;
+}
+.iphone {
+    margin-left: 20%;
+    margin-top: 15px;
+}
+.iphone img {
+    max-width: 100%;
+}
+.works-step{
+    margin-top: 90px;
+}
+.works-step div {
+    border: 1px solid #32CD32;
+    display: inline-block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.works-step img {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.clearfix {
+    zoom: 1;
+}
+.clearfix:after {
+    visibility: hidden;
+    content: ".";
+    height: 0;
+    display: block;
+    clear: both;
+}
+.mobile {
+    margin-top: 60px;
+} 
+.cities {
+    margin-top: 100px
+}
+.cities img {
+    width: 100%;
+    margin-top: 50px;
+}
+.cities i {
+    color: #32CD32;
+    margin-left: 21%;
+}
+.cities h3 {
+    text-align: center;
+}
+.btn-block {
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.row-space {
+    margin-top: 40px;
+}
+.form {
+    margin-top: 40px;
+}
